@@ -1,0 +1,58 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    max-width: 350px;
+    background-color: #f00;
+    margin: auto;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#over {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;    
+}
+#over1 {
+    width: 100px;
+    height: 100px;
+    overflow: visible;  
+}
+#over2 {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;  
+}
+#over3 {
+    width: 100px;
+    height: 100px;
+    overflow: auto;  
+}
+#overy {
+    width: 100px;
+    height: 100px;
+    overflow-y: scroll;  
+}
+#overx {
+    width: 100px;
+    height: 100px;
+    overflow-x: scroll;  
+}
+.der {
+    float: left;
+}
+.der:hover {
+    opacity: 0.4;
+}
+.izq {
+    float: right;
+    opacity: 0.8;
+}
+
+div p {
+    color: #F00;
+}
