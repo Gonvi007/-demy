@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(102, 101, 101);
+}
+#titulo {
+    color: rgb(252, 58, 24);
+    
+}
+
+p.texto {
+    color: rgb(189, 188, 196);
+}
+p.especial {
+    color: mediumspringgreen;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    text-align: space-between;
+}
+
+.color {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px black solid;
+}
+
+.color1 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px black dotted;
+}
+
+.color2 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px black dashed;
+}
+.color3 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px black double;
+}
+.color4 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px blue groove;
+}
+.color5 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px blue ridge;
+}
+.color6 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px blue inset;
+}
+.color7 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px blue outset;
+}
+.color8 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px blue none;
+}
+.color9 {
+    color: rgba(36, 29, 29, 0.548);
+    border: 5px blue hidden;
+}
+.color10 {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
